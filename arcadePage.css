@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0em;
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(46, 46, 46);
+}
+
+header{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates a 3x3 grid */
+    gap: 20px; /* Space between cells */
+    margin: 20px auto; /* Centering the grid */
+    max-width: 300px; /* Restricting the maximum width of the grid */
+}
+
+
+
+.cell:hover {
+    background-color: #eaeaea; /* Hover effect for cells */
+}
+
+img{
+    background-color: #fff;
+    border: 2px solid #333;
+    font-weight: bold;
+    cursor: pointer;
+    aspect-ratio: 1 / 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img:hover{
+    box-shadow: 0 0 10px 10px rgba(0,140,186,0.5);
+}
+
+#resultDisplay{
+    font-size: 24px;
+    margin: 20px;
+}

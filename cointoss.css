@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+
+    /* margin: 0em; */
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(46, 46, 46);
+}
+
+#game-container{
+    text-align: center;
+    margin: 5vh 15vw 0 15vw;
+}
+
+#title {
+    text-align: center;
+}
+
+
+button{
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: #c2d5e9;
+}
+
+#coin{
+    width: 200px;
+    opacity: 1;
+    transition: opacity 0.8s ease-in-out;
+    border-radius: 50%;
+}
+
+.fadeOut{
+    transition-duration: .5s;
+    opacity: 0;
+}
+
+
+
+p{
+    font-size: 18px;
+}
